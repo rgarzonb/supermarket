@@ -1,0 +1,107 @@
+.background-container {
+  background-size: cover;
+  background-position: center center;
+  min-height: 100vh; /* Make the container at least 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white; 
+}
+.custom-grey-background {
+  background-color: #6c757d; /* Bootstrap's "secondary" grey color */
+  color: white; /* Optionally, you can change the text color for better visibility */
+}
+
+.filter-label {
+  margin-bottom: 10px; /* Add margin to separate labels from form controls */
+}
+
+.label-text {
+  font-weight: bold; /* Make the labels bold */
+  margin-right: 10px; /* Add margin to the right of the labels */
+}
+
+/* Modal Styles */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  background-color: white;
+  width: 80%;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.form-group-mod {
+  margin-bottom: 20px; /* Adds spacing between form groups */
+}
+
+/* Style for form labels */
+.form-group-mod label {
+  display: block; /* Labels are displayed as block elements for proper alignment */
+  margin-bottom: 5px; /* Adds spacing below the label */
+  font-weight: bold; /* Makes the label text bold */
+}
+
+/* Style for form inputs */
+.form-group-mod input {
+  width: 100%; /* Makes the input field take up 100% of the available width */
+  padding: 8px; /* Adds padding inside the input field */
+  border: 1px solid #ccc; /* Adds a border with a light gray color */
+  border-radius: 4px; /* Rounds the corners of the input field */
+}
+
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.light-blue-button {
+  background-color: #007bff;
+  color: white; /* Optionally, set the text color to white for better contrast */
+  margin-left: 5px; 
+}
+
+.label{
+  margin-right: 10px; /* Add margin to the right of the labels */
+  margin-left: 5px; /*Add margin to the right of the labels */
+}
+
+.custom-modal {
+  width: 100%; /* Set the desired width for your modal */
+  max-width: 1500px; 
+  margin: 0 auto; /* Center the modal horizontally */
+}
+
+.column-form input[type="text"]{
+  width: 200px; /* Adjust the width as needed */
+  margin-right: 5px;
+  /* Add other styling properties such as padding, margin, etc. */
+}
+.column-form input[type="number"] {
+  width: 60px; /* Adjust the width as needed */
+  margin-left: 5px;
+}
+
+.two-column-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  flex: 1;
+}
